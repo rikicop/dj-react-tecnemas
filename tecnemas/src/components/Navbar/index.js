@@ -34,13 +34,13 @@ const Navbar = ({toggle}) => {
                   </MobileIcon>
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to='blog' 
+                          <NavLinks to='principal' 
                            smooth={true}
                            spy={true}
                            duration={500}
                            exact='true'
                            offset={-80}
-                           >Blog</NavLinks>
+                           >Principal</NavLinks>
                       </NavItem>
                       <NavItem>
                           <NavLinks to='servicios'
@@ -61,17 +61,18 @@ const Navbar = ({toggle}) => {
                           >Cursos</NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to='nosotros'
+                          <NavLinks to='equipo'
                            smooth={true}
                            spy={true}
                            duration={500}
                            exact='true'
                            offset={-80}         
-                          >Nosotros</NavLinks>
+                          >Equipo</NavLinks>
                       </NavItem>
                   </NavMenu>
                   <NavBtn>
-                    <NavBtnLink to="/fetch">Documentación</NavBtnLink>
+                   {/*  <NavBtnLink to="/doc">Blog</NavBtnLink> */}
+                    <NavBtnLink to="/blog">Blog</NavBtnLink>
                   </NavBtn>
               </NavbarContainer>
           </Nav>

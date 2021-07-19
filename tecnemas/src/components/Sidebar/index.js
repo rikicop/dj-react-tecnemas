@@ -9,13 +9,13 @@ function Sidebar({isOpen,toggle}) {
             </Icon>
             <SidebarWrapper >
                 <SidebarMenu>
-                    <SidebarLink to='blog' onClick={toggle}>Blog</SidebarLink>
+                    <SidebarLink to='principal' onClick={toggle}>Principal</SidebarLink>
                     <SidebarLink to='servicios' onClick={toggle}>Servicios</SidebarLink>
                     <SidebarLink to='cursos' onClick={toggle}>Cursos</SidebarLink>
-                    <SidebarLink to='nosotros' onClick={toggle}>Nosotros</SidebarLink>
+                    <SidebarLink to='equipo' onClick={toggle}>Equipo</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/doc">Documentación</SidebarRoute>
+                    <SidebarRoute to="/blog">Blog</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

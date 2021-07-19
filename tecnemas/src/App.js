@@ -5,6 +5,7 @@ import Home from './pages';
 import SigninPage from './pages/signin';
 /* import Navbar from './components/Navbar'; */
 import FetchingPage from './pages/fetching';
+import BlogPage from './pages/blog';
 
 
 
@@ -17,6 +18,7 @@ function App() {
        <Route path="/" component={Home} exact />
        <Route path="/doc" component={SigninPage} exact />
        <Route path="/fetch" component={FetchingPage} exact />
+       <Route path="/blog" component={BlogPage} exact />
      </Switch>
     </Router>
   );

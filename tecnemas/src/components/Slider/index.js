@@ -45,7 +45,7 @@ const data = [
 function Slider() {
   return (
   
-   <div className="Slider" id = "nosotros">
+   <div className="Slider" id = "equipo">
      <div className="titulo">Colaboradores</div>
     <Swiper  
       spaceBetween={5}
